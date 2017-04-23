@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.css">
+
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/store.min.js"></script>
+    <script src="js/jquery.datetimepicker.full.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+
+<body>
+
+<div class="notice">
+    <span class="notice_title"></span>
+    <button>知道啦</button>
+</div>
+
+
+
+
+<div class="back_top">
+    <img src="images/Top.jpg" alt="">
+</div>
+
+<!--头部logo-->
+<div class="banner">
+    <img src="images/logo.png" alt="">
+</div>
+<!--添加内容导航-->
+<div class="nav">
+    <div class="nav_content">
+        <div class="nav_left fl">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="nav_right">
+            <form action="#">
+                <input type="text" placeholder="请输入备忘内容...">
+                <input type="submit" value="添加">
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--内部列表-->
+<div class="content_list">
+
+    <!--头部标签-->
+    <div class="header">
+        <ul>
+            <li class="cur">待办事项</li>
+            <li>已完成事项</li>
+        </ul>
+    </div>
+
+    <!--标签内容-->
+    <div class="list_body active ">
+
+        <ul class="task">
+
+        </ul>
+
+    </div>
+
+    <div class="list_body ">
+
+        <ul class="finish_task">
+
+        </ul>
+
+    </div>
+
+</div>
+
+
+
+<div class="mask">
+
+    <div class="content_detail">
+
+        <div class="detail_h">
+            <span class="detail_title">标题</span>
+            <span class="close">关闭</span>
+        </div>
+
+        <div class="detail_body">
+            <textarea name="detail_content"></textarea>
+            <p>提醒时间 </p>
+            <input type="text" class="date_time">
+            <button type="submit" id="update">更新</button>
+        </div>
+
+    </div>
+
+</div>
+
+<video src="4188.mp3"></video>
+
+
+
+</body>
+</html>
